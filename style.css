@@ -38,7 +38,7 @@ nav {
 }
 
 nav a:hover {
-  color: #F9D324;
+  color: rgb(165, 6, 6);
 }
 
 .nav-items a {
@@ -76,13 +76,15 @@ nav a:hover {
 
 #hero-tittle {
   display: flex;
-  font-size: 70px;
-  font-weight: 700;
+  font-size: 1.6rem;
   flex-direction: column;
   color: rgb(165, 6, 6);
 }
 #hero-subtext {
   color: rgb(165, 6, 6);
+  font-size: 3.3rem;
+  font-weight: 700;
+
 }
 
 #hero button {
@@ -204,3 +206,12 @@ footer {
 #folio {
   color: #ECD6AE;
 } 
+
+  
+
+.about-container h1 {
+  color: rgb(165, 6, 6);
+}
+.about-desc h2 {
+  color: rgb(165, 6, 6);
+}

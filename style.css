@@ -4,7 +4,7 @@
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-style: normal;
+  font-style: normal; overflow-x: hidden;
 }
 
 nav {
@@ -121,14 +121,6 @@ nav a:hover {
 }
 
 
-.about-img {
-  width: 70%;
-  height: 400px;
-  background-image: url(./IMG-20240625-WA0006\ copy.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center right;
-}
 
 .about-desc {
   width: 55%;
@@ -154,6 +146,13 @@ nav a:hover {
   color: white;
   font-size: 18px;
   padding: 15px 25px;
+  border-radius: 25PX;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  
 }
 
 

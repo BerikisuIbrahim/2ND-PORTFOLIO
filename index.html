@@ -12,7 +12,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <script src="index.js" defer></script>
 </head>
 
 <body>
@@ -21,101 +21,108 @@
     <div class="nav-container">
       <h1><span id="kisu">Kisu</span> <span id="folio">Folio</span></h1>
       <div class="nav-items">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Quality</a>
-        <a href="#">Skill</a>
-        <a href="#">Service</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Review</a>
-        <a href="#">Blog</a>
+        <a href="about-container">About Me</a>
+        <!-- <a href="#">Skills</a> -->
+        <!-- <a href="#">Service</a> -->
         <a href="#">Contact</a>
       </div>
-      <button class="btn">Hire Me</button>
+      <button class="btn" onclick="location.href= 'https://www.linkedin.com/in/berikisuibrahim/' ">Hire Me</button>
     </div>
   </nav>
 
-  <!-- about section -->
+  <!-- hero section -->
   <section class="section-1">
-    <div>
-      <img class="img-1" src="./IMG-20240625-WA0006 copy.jpg" alt="" width="400px" height="400px">
+    <div class="div-1">
+      <img src="./images/cropped_image 3.png" alt=" "width="400px" height="400px">
     </div>
     <div id="hero">
-      <p id="hero-tittle">Hello!</p>
-      <h1 id="hero-subtext">I'm Berikisu Ibrahim</p>
-        <p>A Web Developer</p>
-        <button>Contact Me</button>
+      <h3 id="hero-tittle">Hello!</h3>
+      <h1 id="hero-subtext">I'm Berikisu Ibrahim</h1>
+    <h3>Code & Culture: Web Developer | <br> Fante Translator | Wikimedian at heart</h3>
+    <button class="btn" onclick="location.href= 'https://www.linkedin.com/in/berikisuibrahim/' ">Let's Connect</button>
     </div>
+
   </section>
 
   <!-- About section -->
-  <section id="about-section">
     <div class="about-container">
-      <h1>ABOUT ME</h1>
-      <div class="second-part">
-        <div class="about-img">
-          <img src="IMG-20230103-WA0028.jpg" alt="" width="350px" height="500px">
-        </div>
-        <div class="about-desc">
-          <h2>A WEB DEVELOPER</h2>
-          <p>I design, build, test, and maintain websites, web applications, and othervonline platforms. I use programming languages, frameworks, and tools to create visually appealing, and functional digital experiences.</p>
-          <ol>
-            <li>Full Name: Berikisu Ibrahim</li>
-            <li>Date of Birth: 07/07/2000</li>
-            <li>Email: berikisuibrahim227@gmail.com</li>
-          </ol>
-          <div class="buttons">
-            <button>Hire Me</button>
-            <button>Learn More</button>
-          </div>
+      <div class="abt">
+        <h1>ABOUT ME</h1>
+        <img src="./images/2nd-img.jpg" alt="About me" width="350px" height="500px">
+        <div class="buttons">
+           <button type="button" value="Submit" onClick="" >
+            >Hire Me</button>
         </div>
       </div>
-    </div>
-  </section>
-  <section>
-    <div>
-      <div class="education">
-        
-          <h1>Education and Experience</h1>
-       <div>
 
-       </div>
-          <h2>EDUCATION</h2>
-          <h3>Melt-Water Entrepreneural School</h3>
-          <p>I studied HTML, CSS, JavaScript, Responsive Web Design and many more. I acquired soft skills such as
-            communication, teamwork, Problem-solving, time management and continuous learning.</p>
+      
+        <div class="about-desc">
+          <h2>Code & Culture: A WEB DEVELOPER & A FANTE TRANSLATOR</h2>
+          <p> I am a skilled web developer, a dedicated Fante translator, and active Wikimedian. 
+            My passion lies in combining language and technology to create culturally relevant and engaging digital experiences.
+        </p>I design, build, test, and maintain websites, web applications, and othervonline platforms. I use programming languages, frameworks, and tools to create visually appealing, and functional digital experiences.</p>
         </div>
-        </div>
-        <div class="projects">
-          <h2>PROJECTS</h2>
-          <h3>E-commerce Website for Fashion Brand</h3>
-          <p>Developed a custom WordPress theme, integrated WooCommerce, and implemented payment gateway using Stripe.
-          </p>
-          <div>
-            <h3>Non-Profit Organization Website</h3>
-            <p>
-              Designed and developed a responsive website using Bootstrap, implemented donation functionality using
-              PayPal.
-            </p>
-           
-          </div>
-        </div>
-      </div>
+      
     </div>
+
+  <section>
+
+       <div class="edu"><h1>Education and Experience</h1></div>
+       <div class="exp">
+       <div class="melt">
+          <h3>Melt-Water Entrepreneural School</h3>
+          <br>
+          <p>I studied HTML, CSS, JavaScript, Responsive Web Design and many more. <br> I acquired soft skills such as communication, teamwork, Problem-solving, <br> time management and continuous learning.</p>
+       </div>
+       <div class="uni">
+            <h3>University of Education, Winneba</h3>
+            <br>
+            <p>I read B. A. Fante and German Education. <br> I translate articles from English to Fante.</p>
+        </div>
+       </div>
+       <div><h2 class="pro">PROJECTS</h2></div>
+       <div class="web">
+          <div class="co">
+            <img src="./images/img4.png" alt="proj" width="500px" height="350px">
+            <button class="btn" onclick="location.href= ' https://berikisuibrahim.github.io/My-Personal-Project/' ">Learn More</button>
+
+          </div>
+          <div class="none">
+            <img src="./images/img5.png" alt="proj" width="500px" height="350px">
+            <button class="btn" onclick="location.href= 'https://berikisuibrahim.github.io/Portfolio/' ">Learn More</button>
+
+
+
+           </div>
+          </div>
   </section>
+  <!-- Contact Section
+  <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+  </section> -->
   <section>
     <div>
-      <h1>Skills</h1>
+      <!-- <h1>Skills</h1> -->
     </div>
     <footer>
       <div>
         <div id="socials">
           <!-- Add font awesome icons -->
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-instagram"></a>
           <a href="#" class="fa fa-linkedin"></a>
         </div>
+        <p>Contact me on: +233550194328</p>
         <p>Privacy | Terms | FAQs | Help</p>
         <p>© Domain Name. All Rights Reserved. Desingned by Berikisu Ibrahim.</p>
       </div>
